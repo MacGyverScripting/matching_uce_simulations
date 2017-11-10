@@ -18,7 +18,9 @@ The scripts further require two folders: (1) Bait set folder. The scripts need t
 
 ## Workflow 
 
-1. fetch_genomes.sh (e.g., call as 'bash -x fetch_genomes.sh 2>&1 | tee output_fetch.log').
+1. fetch_genomes.sh (e.g., call as 
+
+```bash -x fetch_genomes.sh 2>&1 | tee output_fetch.log).```
    This script downloads the 400 genomes used in the above mentioned study from NCBI. It will further create the folder
    architecture that the other scripts of the repository rely on.
    
