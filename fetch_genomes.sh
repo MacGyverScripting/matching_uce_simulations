@@ -12,7 +12,7 @@
 
 ### Returns: [1] A log file that can be used to quantify the number of matching UCEs. [2] Sqlite databases that can be used to slice out sequence data.
 
-## This script downloads the 400 genomes used in a study by Bosser & Danforth from NCBI. It will further create the folder architecture that the other scripts of the repository rely on.
+## This script downloads the 400 genomes used in a study by Bossert & Danforth from NCBI. It will further create the folder architecture that the other scripts of the repository rely on.
 
 
 # Navigate into the folder that will contain the genomes in 2bit file format.
