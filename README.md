@@ -5,10 +5,12 @@ This repository includes the scripts which were used to simulate the matching su
 The repository includes the entire code used in a modeling study by Bossert & Danforth, and consists of 5 different shell scripts and one Python script. The general workflow is outlined below.
 
 ## Prerequisites
+# Programs
 The scripts require the following programs: 
 * (1) [FaToTwobit](https://genome.ucsc.edu/goldenpath/help/blatSpec.html), callable as "fatotwobit", and 
 * (2) [PHYLUCE](https://github.com/faircloth-lab/phyluce) (Faircloth 2017).
 
+# Folder architecture
 The scripts further require two folders: 
 * (1) Bait set folder. The scripts need to have access to a "probesets" folder, which has to be nested in the main folder (i.e., the folder in which the following scripts are executed). The "probesets" folder contains the probe sets of interest in .fasta format (e.g., hymenoptera.fasta). The probe sets used in the above mentioned study are from [Branstetter et al. (2017)](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12742/abstract). 
 * (2) Configuration file folder. The scripts need to have access to a "configs" folder. The folder contains the configuration files that are needed to slice out the genomic sequence data from the utilized genomes. The configuration files can be found in this repository, however,they have to be altered if different taxa are used.
