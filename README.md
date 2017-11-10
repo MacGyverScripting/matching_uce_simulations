@@ -1,11 +1,4 @@
-
-
-
-Workflow:
-
-
-
-# UCE macth counter
+# UCE match counter
 This repository includes the scripts which were used to simulate the matching success of several UCE probe sets among 400 genomes of different descents.
 
 ## Getting Started
@@ -24,6 +17,6 @@ The scripts further require two folders: (1) Bait set folder. The scripts need t
    
 ## Literature
 
-1. Branstetter, M. G., Longino, J. T., Ward, P. S. & Faircloth, B. C. Enriching the ant tree of life: enhanced UCE bait set for genome-scale phylogenetics of ants and other Hymenoptera. Methods Ecol. Evol., doi:10.1111/2041-210X.12742 (2017).
+1. Branstetter, M. G., Longino, J. T., Ward, P. S. & Faircloth, B. C. Enriching the ant tree of life: enhanced UCE bait set for genome-scale phylogenetics of ants and other Hymenoptera. Methods Ecol. Evol., [doi:10.1111/2041-210X.12742](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12742/abstract) (2017).
 
-2. Faircloth, B. C. PHYLUCE is a software package for the analysis of conserved genomic loci. Bioinformatics 32, 786-788, doi:10.1093/bioinformatics/btv646 (2016)
+2. Faircloth, B. C. PHYLUCE is a software package for the analysis of conserved genomic loci. Bioinformatics 32, 786-788, [doi:10.1093/bioinformatics/btv646](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btv646) (2016).
