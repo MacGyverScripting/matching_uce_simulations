@@ -28,7 +28,7 @@ main_folder
       │       ├── run_3.conf     
       │       └── run_4.conf  
       │
-      ├── fetch.sh
+      ├── fetch_genomes.sh
       ├── head_script.sh
       ├── match_probes.sh
       ├── head_slicer.sh
