@@ -13,13 +13,34 @@ The scripts require the following programs:
 ### Folder architecture
 The scripts further require two folders: 
 * (1) Bait set folder. The scripts need to have access to a "probesets" folder, which has to be nested in the main folder (i.e., the folder in which the following scripts are executed). The "probesets" folder contains the probe sets of interest in .fasta format (e.g., hymenoptera.fasta). The probe sets used in the above mentioned study are from [Branstetter et al. (2017)](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12742/abstract). 
-* (2) Configuration file folder. The scripts need to have access to a "configs" folder. The folder contains the configuration files that are needed to slice out the genomic sequence data from the utilized genomes. The configuration files can be found in this repository, however,they have to be altered if different taxa are used.
+* (2) Configuration file folder. The scripts need to have access to a "configs" folder. The folder contains the configuration files that are needed to slice out the genomic sequence data from the utilized genomes. The configuration files can be found in this repository, however, they have to be altered if different taxa are used.
+
+
+
+main_folder
+      ├── probesets
+      │       ├── hymenoptera.fasta
+      │       ├── coleoptera.fasta
+      │       └── diptera.fasta
+      │
+      ├── configs
+      │       ├── run_1.conf
+      │       ├── run_2.conf
+      │       ├── run_3.conf     
+      │       └── run_4.conf     
+      ├── fetch.sh
+      ├── head_script.sh
+      ├── match_probes.sh
+      ├── head_slicer.sh
+      ├── slicer.sh
+      └── here_comes_python.py
+     
 
 ## Workflow 
 
 1. fetch_genomes.sh – (e.g., call as ```bash -x fetch_genomes.sh 2>&1 | tee output_fetch.log)```. This script downloads the 400 genomes used in the above mentioned study from NCBI. It will further create the folder architecture that the other scripts of the repository rely on.
    
-2. head_script.sh – (e.g., call as '```bash -x head_script.sh hymenoptera 2>&1 | tee match_probes_master_hymenoptera.log)```. This script runs the actual matching process, wrapped around the [phyluce_probe_run_multiple_lastzs_sqlite](https://github.com/faircloth-lab/phyluce/blob/master/bin/assembly/phyluce_assembly_match_contigs_to_probes) script from [PHYLUCE](https://github.com/faircloth-lab/phyluce).
+2. head_script.sh – (e.g., call as '```bash -x head_script.sh hymenoptera 2>&1 | tee match_probes_master_hymenoptera.log)```. This script runs the actual matching process, wrapped around the [phyluce_probe_run_multiple_lastzs_sqlite](https://github.com/faircloth-lab/phyluce/blob/master/bin/assembly/phyluce_assembly_match_contigs_to_probes) script from [PHYLUCE](https://github.com/faircloth-lab/phyluce). The script calls 
    
 ## Literature
 
