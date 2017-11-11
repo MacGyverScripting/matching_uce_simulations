@@ -26,7 +26,8 @@ main_folder
       │       ├── run_1.conf
       │       ├── run_2.conf
       │       ├── run_3.conf     
-      │       └── run_4.conf     
+      │       └── run_4.conf  
+      │
       ├── fetch.sh
       ├── head_script.sh
       ├── match_probes.sh
