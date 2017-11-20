@@ -40,7 +40,7 @@ main_folder
 
 ## Workflow 
 
-1. fetch_genomes.sh – (e.g., call as ```bash -x fetch_genomes.sh 2>&1 | tee output_fetch.log)```. This script downloads the 400 genomes used in the above mentioned study from NCBI. It will further create the folder architecture that the other scripts of the repository rely on.
+1. fetch_genomes.sh – (e.g., call as ```bash -x fetch_genomes.sh 2>&1 | tee output_fetch.log)```. This script downloads the 400 genomes used in the above mentioned study from NCBI. It will further create the folder architecture that the other scripts of the repository rely on. Keep in mind that these are very large downloads.
    
 2. head_script.sh – (e.g., call as ```bash -x head_script.sh hymenoptera 2>&1 | tee match_probes_master_hymenoptera.log)```. This script runs the actual matching process, wrapped around the [phyluce_probe_run_multiple_lastzs_sqlite](https://github.com/faircloth-lab/phyluce/blob/master/bin/assembly/phyluce_assembly_match_contigs_to_probes) script from [PHYLUCE](https://github.com/faircloth-lab/phyluce). The script calls 
    
