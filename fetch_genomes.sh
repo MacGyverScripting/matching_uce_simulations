@@ -6,8 +6,6 @@
 
 # Call: 'bash -x fetch_genomes.sh 2>&1 | tee output_fetch.log'
 
-# Cited literature: 	[1] Faircloth, B. C., Branstetter, M. G., White, N. D. & Brady, S. G. Target enrichment of ultraconserved elements from arthropods provides a genomic perspective on relationships among Hymenoptera. Mol. Ecol. Resour. 15, 489-501, doi:10.1111/1755-0998.12328 (2015). [2] Branstetter, M. G., Longino, J. T., Ward, P. S. & Faircloth, B. C. Enriching the ant tree of life: enhanced UCE bait set for genome-scale phylogenetics of ants and other Hymenoptera. Methods Ecol. Evol., doi:10.1111/2041-210X.12742 (2017). [3] Faircloth, B. C. PHYLUCE is a software package for the analysis of conserved genomic loci. Bioinformatics 32, 786-788, doi:10.1093/bioinformatics/btv646 (2016)
-
 ### Preconditions: The script is executable in a linux environment and needs the following programs: [1] FaToTwobit (https://genome.ucsc.edu/goldenpath/help/blatSpec.html), usable as fatotwobit; [2] PHYLUCE (Faircloth 2016). A good internet connection is recommended.
 
 ### Returns: [1] A log file that can be used to quantify the number of matching UCEs. [2] Sqlite databases that can be used to slice out sequence data.
