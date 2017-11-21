@@ -12,7 +12,7 @@ The scripts require the following programs:
 
 ### Folder architecture
 The scripts further require two folders: 
-* (1) Bait set folder. The scripts need to have access to a "probesets" folder, which has to be nested in the main folder (i.e., the folder in which the following scripts are executed). The "probesets" folder contains the probe sets of interest in .fasta format (e.g., hymenoptera.fasta). The probe sets used in the above mentioned study can be found in [Faircloth's (2017)](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12754/full) [Dryad repository] (http://datadryad.org/resource/doi:10.5061/dryad.v0k4h). The Hymenoptera probe set is from [Branstetter et al. (2017)](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12742/abstract). 
+* (1) Bait set folder. The scripts need to have access to a "probesets" folder, which has to be nested in the main folder (i.e., the folder in which the following scripts are executed). The "probesets" folder contains the probe sets of interest in .fasta format (e.g., hymenoptera.fasta). The probe sets used in the above mentioned study can be found in [Faircloth's (2017)](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12754/full) [Dryad repository](http://datadryad.org/resource/doi:10.5061/dryad.v0k4h). The Hymenoptera probe set is from [Branstetter et al. (2017)](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12742/abstract). 
 * (2) Configuration file folder. The scripts need to have access to a "configs" folder. The folder contains the configuration files that are needed to slice out the genomic sequence data from the utilized genomes. The configuration files can be found in this repository, however, they have to be altered if different taxa are used.
 
 ```
