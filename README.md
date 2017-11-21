@@ -52,4 +52,4 @@ main_folder
 
 2. Faircloth, B. C. PHYLUCE is a software package for the analysis of conserved genomic loci. Bioinformatics 32, 786-788, [doi:10.1093/bioinformatics/btv646](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btv646) (2016).
 
-3. Faircloth, B. C. Identifying conserved genomic elements and designing universal bait sets to enrich them. Methods Ecol. Evol. [10.1111/2041-210X.12754](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12754/full)
+3. Faircloth, B. C. Identifying conserved genomic elements and designing universal bait sets to enrich them. Methods Ecol. Evol. [10.1111/2041-210X.12754](http://onlinelibrary.wiley.com/doi/10.1111/2041-210X.12754/full) (2017).
